@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Blackbox_Alphabroder>
+            <version>0.2</version>
+        </Blackbox_Alphabroder>
+    </modules>
+    <global>
+        <helpers>
+            <blackbox_Alphabroder>
+                <class>Blackbox_Alphabroder_Helper</class>
+            </blackbox_Alphabroder>
+        </helpers>
+        <models>
+        </models>
+
+        <resources>
+            <alphabroder_setup>
+                <setup>
+                    <module>Blackbox_Alphabroder</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </alphabroder_setup>
+        </resources>
+    </global>
+</config>
